@@ -1,3 +1,16 @@
+function showRules() {
+    const ruleText = document.querySelector(".rules-text");
+    // ruleText.classList.toggle("hide");
+    if (ruleText.classList.contains('hide')) {
+        ruleText.classList.remove('hide');
+    }
+    else {
+        ruleText.classList.add('hide');
+    }
+}
+
+document.getElementById('rules-btn').addEventListener('click', showRules);
+
 btnColor = ['green', 'red', 'yellow', 'blue'];
 gamePattern = []
 userPattern = []

@@ -53,13 +53,32 @@ h1 {
     position: absolute;
     top: 50px;
     left: 30px;
-    color: whitesmoke;
     width: 30%;
+    display: inline-block;
+}
+
+#rules-btn {
+    padding: 5px 15px;
+    background-color: aliceblue;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    border-radius: 15px;
+    /* display: inline-block; */
+}
+
+.rules-text {
+    background-color: rgba(25, 25, 25, .95);
+    color: whitesmoke;
+    margin-top: 10px;
     height: auto;
     max-width: 250px;
-    background-color: rgba(25, 25, 25, .95);
-    padding: 15px;
+    min-width: 200px;
+    padding: 10px;
     padding-right: 20px;
     border-radius: 10px;
+}
 
+.hide {
+    display: none;
 }
