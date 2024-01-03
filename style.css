@@ -29,8 +29,8 @@ h1 {
     border: .75rem solid whitesmoke;
 }
 
-.glow {
-    box-shadow: 0 0 15px 5px gold;
+.btn-contain button:hover {
+    box-shadow: 0 0 10px 5px gold;
 }
 
 .red {
@@ -47,4 +47,19 @@ h1 {
 
 .yellow {
     background-color: yellow;
+}
+
+.rules {
+    position: absolute;
+    top: 50px;
+    left: 30px;
+    color: whitesmoke;
+    width: 30%;
+    height: auto;
+    max-width: 250px;
+    background-color: rgba(25, 25, 25, .95);
+    padding: 15px;
+    padding-right: 20px;
+    border-radius: 10px;
+
 }
